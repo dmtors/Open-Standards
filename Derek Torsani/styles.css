@@ -1,0 +1,12 @@
+body {
+    background: whitesmoke;
+}
+
+.card {
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}

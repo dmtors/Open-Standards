@@ -1,0 +1,62 @@
+/*Sizes*/
+.sm-body {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.md-body {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.lg-body {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.sm-heading {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.md-heading {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.heading {
+  font-size: 48px;
+  line-height: 52px;
+}
+
+.lg-heading {
+  font-size: 64px;
+  line-height: 68px;
+}
+
+/*Positioning*/
+.text-center {
+  text-align: center;
+}
+
+/*Colors*/
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.grey-text {
+  color: grey;
+}

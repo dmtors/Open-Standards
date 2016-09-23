@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+}
+
+a, p, button, input, div, section {
+  font-family: sans-serif;
+  display: block;
+  outline-style: none;
+}

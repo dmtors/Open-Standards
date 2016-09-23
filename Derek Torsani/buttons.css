@@ -1,0 +1,50 @@
+/*General*/
+.button {
+  /*font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;*/
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.125s all ease-in-out;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*Styles*/
+.prim {
+  color: white !important;
+  border: 1px solid;
+}
+
+.sec {
+  border: 1px solid;
+  background: none !important;
+  background-color: none;
+}
+
+.sec:hover {
+  color: white;
+}
+
+/*Colors*/
+.blue {
+  color: blue;
+  background-color: blue;
+  border-color: blue;
+}
+
+.blue:hover {
+  background-color: darkblue !important;
+  border-color: darkblue;
+}
+
+.red {
+  color: red;
+  background-color: red;
+  border-color: red;
+}
+
+.red:hover {
+  background-color: darkred !important;
+  border-color: darkred;
+}
