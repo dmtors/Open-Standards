@@ -1,0 +1,114 @@
+@import "defaults.scss";
+
+/*General*/
+.center {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.px24 {
+    padding: 24px;
+}
+
+/*Top Spacing*/
+.mt4 {
+  margin-top: 4px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.mt48 {
+  margin-top: 48px;
+}
+
+.mt64 {
+  margin-top: 64px;
+}
+
+/*Left Spacing*/
+.ml4 {
+  margin-left: 4px;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.ml16 {
+  margin-left: 16px;
+}
+
+.ml24 {
+  margin-left: 24px;
+}
+
+.ml48 {
+  margin-left: 48px;
+}
+
+.ml64 {
+  margin-left: 64px;
+}
+
+/*Right Spacing*/
+.mr4 {
+  margin-right: 4px;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+.mr48 {
+  margin-right: 48px;
+}
+
+.mr64 {
+  margin-right: 64px;
+}
+
+/*Padding*/
+.pr24 {
+    padding-right: 24px;
+}
+
+.ptb64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.ptb128 {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}

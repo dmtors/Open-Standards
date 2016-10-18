@@ -1,0 +1,78 @@
+@import "defaults.scss";
+
+/*General*/
+.btn {
+  /*font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;*/
+  cursor: pointer;
+  transition: 0.125s all ease-in-out;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.lnk {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.125s all ease-in-out;
+}
+
+.current {
+    cursor: default;
+    color: $red !important;
+}
+
+/*Styles*/
+.prim {
+  color: white !important;
+  border: 1px solid;
+}
+
+.sec {
+  border: 1px solid;
+  background: none !important;
+  background-color: none;
+  &:hover {
+    color: white;
+  }
+}
+
+/*Colors*/
+.red-btn {
+  color: $red;
+  background-color: $red;
+  border-color: $red;
+  &:hover {
+    background-color: darken($red, 15%) !important;
+    border-color: darken($red, 15%);
+  }
+  &:active {
+    background-color: darken($red, 25%) !important;
+    border-color: darken($red, 25%);
+  }
+}
+
+.white-btn {
+  color: $grey2;
+  background-color: white;
+  border-color: white;
+  &:hover {
+    background-color: darken(white, 15%) !important;
+    border-color: darken(white, 15%);
+  }
+  &:active {
+    background-color: darken(white, 25%) !important;
+    border-color: darken(white, 25%);
+  }
+}
+
+.red-lnk {
+    &:hover {
+        color: $red;
+    }
+    &:active {
+      color: darken($red, 25%);
+    }
+}

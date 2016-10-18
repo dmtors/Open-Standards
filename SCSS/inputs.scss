@@ -1,0 +1,32 @@
+@import "defaults.scss";
+
+/*General*/
+.input {
+  color: $grey3;
+  transition: 0.125s all ease-in-out;
+  box-sizing: border-box;
+}
+
+/*Styles*/
+.border {
+  border: 1px solid $grey2 !important;
+  &:hover {
+    border-color: $grey3 !important;
+  }
+  &:focus {
+    border-color: $red !important;
+  }
+}
+
+.fill {
+  background: lightgrey;
+  border: 1px solid lightgrey;
+  &:hover {
+    background: lightgrey;
+    border-color: lightgrey;
+  }
+  &:focus {
+    background: whitesmoke;
+    border-color: whitesmoke;
+  }
+}

@@ -1,0 +1,42 @@
+@import "defaults.scss";
+
+/*Containers*/
+.tn-cont {
+  max-width: 320px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+}
+
+.sm-cont {
+  max-width: 616px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+}
+
+.lg-cont {
+  max-width: 936px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+}
+
+.fl-cont {
+    width: 100%;
+}
+
+/*Buttons & Inputs*/
+.sm {
+  padding: 4px 8px;
+}
+
+.lg {
+  padding: 12px 16px;
+}
+
+/*Widths*/
+.w100p {
+  width: 100%;
+  max-width: 100%;
+}

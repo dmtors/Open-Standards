@@ -1,0 +1,33 @@
+@import "defaults.scss";
+
+body {
+    background: $grey1;
+}
+
+.op85 {
+    opacity: 0.85;
+}
+
+.work-logo {
+    height: 32px;
+}
+
+.work-image {
+    width: 100%;
+}
+
+.mobile-show {
+    display: none;
+}
+.mobile-hide {
+    display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-show {
+        display: inline-block;
+    }
+    .mobile-hide {
+        display: none;
+    }
+}

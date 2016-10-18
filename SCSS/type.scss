@@ -1,0 +1,76 @@
+@import "defaults.scss";
+
+/*General*/
+.bld {
+    font-weight: bold;
+}
+
+/*Sizes*/
+.sm-bd {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.md-bd {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.bd {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.lg-bd {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.sm-hd {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.md-hd {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.hd {
+  font-size: 48px;
+  line-height: 52px;
+}
+
+.lg-hd {
+  font-size: 64px;
+  line-height: 68px;
+}
+
+/*Positioning*/
+.txt-center {
+  text-align: center;
+}
+
+/*Colors*/
+.white-txt {
+  color: white;
+}
+
+.grey2-txt {
+  color: $grey2;
+}
+
+.grey3-txt {
+  color: $grey3;
+}
+
+.red-txt {
+  color: $red;
+}
+
+@media screen and (max-width: 767px) {
+    .hd {
+      font-size: 32px;
+      line-height: 36px;
+    }
+}
